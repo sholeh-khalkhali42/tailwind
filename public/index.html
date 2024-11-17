@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-[#252525] text-[#efefef]">
+    <nav class="border-double border-b-2 border-yellow-400 p-4">
+        <div class="flex items-center justify-between wrap">
+            <h3 class="text-2xl font-bold">TechSchool</h3>
+            <div class="w-[180px] flex items-center justify-between">
+                <a href="/">Home</a>
+                <button class="bg-yellow-400 text-[#252525] border-none rounded-lg px-8 py-1">Login</button>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar code -->
+    <header class="py-20">
+        <div class="wrap text-center">
+            <h3 class="title">Welcome to TechSchool</h3>
+            <div class="my-8 md:p-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex ea autem nisi reiciendis.</div>
+            <button class="w-[250px] md:w-[200px] h-[35px] bg-yellow-400 border-none rounded text-[#252525] text-xl font-semibold shadow-xl transition duration-500 ease-linear hover:transition hover:bg-transparent hover:text-[#efefef] hover:duration-500 hover:ease-linear">View Coureses</button>
+        </div>
+    </header>
+    <!-- end header code -->
+    <section class="py-20">
+        <div class="wrap text-center">
+            <h3 class="title">Online Courses</h3>
+            <div class="pt-24 flex items-center justify-between flex-wrap md:flex-col">
+                <div class="card">
+                    <img src="image/javascript.png" alt="javascript" class="w-full rounded h-[180px]">
+                    <div class="flex flex-col items-start capitalize my-10 pl-2">
+                        <div class="text-2xl font-semibold">javascript course</div>
+                        <div class="text-xl mt-2"><i class="fa-regular fa-clock"></i> 14 hours</div>
+                    </div>
+                    <div class="flex items-center justify-between pl-2 my-7">
+                        <span class="text-xl">Price : 14 <i class="fa-solid fa-dollar-sign"></i></span>
+                        <button class="bg-yellow-400 px-8 py-1 font-semibold text-[#252525] rounded border-none mr-4
+                        transition duration-500 ease-linear hover:transition hover:duration-500 hover:ease-linear hover:bg-[#efefef]
+                        "
+                        >
+                            Add To Cart
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="image/react-js.png" alt="react-js" class="w-full rounded h-[180px]">
+                    <div class="flex flex-col items-start capitalize my-10 pl-2">
+                        <div class="text-2xl font-semibold">react-js course</div>
+                        <div class="text-xl mt-2"><i class="fa-regular fa-clock"></i> 18 hours</div>
+                    </div>
+                    <div class="flex items-center justify-between pl-2 my-7">
+                        <span class="text-xl">Price : 19 <i class="fa-solid fa-dollar-sign"></i></span>
+                        <button class="bg-yellow-400 px-8 py-1 font-semibold text-[#252525] rounded border-none mr-4
+                        transition duration-500 ease-linear hover:transition hover:duration-500 hover:ease-linear hover:bg-[#efefef]
+                        "
+                        >
+                            Add To Cart
+                        </button>
+                    </div>
+                </div> 
+                <div class="card">
+                    <img src="image/node-js.jpg" alt="node-js" class="w-full rounded h-[180px]">
+                    <div class="flex flex-col items-start capitalize my-10 pl-2">
+                        <div class="text-2xl font-semibold">node-js course</div>
+                        <div class="text-xl mt-2"><i class="fa-regular fa-clock"></i> 10 hours</div>
+                    </div>
+                    <div class="flex items-center justify-between pl-2 my-7">
+                        <span class="text-xl">Price : 16 <i class="fa-solid fa-dollar-sign"></i></span>
+                        <button class="bg-yellow-400 px-8 py-1 font-semibold text-[#252525] rounded border-none mr-4
+                        transition duration-500 ease-linear hover:transition hover:duration-500 hover:ease-linear hover:bg-[#efefef]
+                        "
+                        >
+                            Add To Cart
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="image/mern.png" alt="mern" class="w-full rounded h-[180px]">
+                    <div class="flex flex-col items-start capitalize my-10 pl-2">
+                        <div class="text-2xl font-semibold">mern stack course</div>
+                        <div class="text-xl mt-2"><i class="fa-regular fa-clock"></i> 22 hours</div>
+                    </div>
+                    <div class="flex items-center justify-between pl-2 my-7">
+                        <span class="text-xl">Price : 20 <i class="fa-solid fa-dollar-sign"></i></span>
+                        <button class="bg-yellow-400 px-8 py-1 font-semibold text-[#252525] rounded border-none mr-4
+                        transition duration-500 ease-linear hover:transition hover:duration-500 hover:ease-linear hover:bg-[#efefef]
+                        "
+                        >
+                            Add To Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end course code -->
+    <section class="py-20">
+        <div class="wrap text-center">
+            <h3 class="title">Contact us</h3>
+            <div class="pt-24 flex items-center justify-between md:flex-col">
+                <div class="w-[40%] flex flex-col md:w-full  mb-32">
+                    <h4 class="text-xl text-yellow-400 font-semibold">NewsLetter</h4>
+                    <p class="my-8">please enter email for subscribe new course</p>
+                    <div class="relative w-[80%]  mx-auto bg-gray-400 rounded">
+                        <input type="email" placeholder="example@gmail.com" class="inputvip">
+                        <button class="absolute w-[80px] bg-[#252525] rounded-lg text-yellow-400 font-bold right-2 top-2">Go</button>
+                    </div>
+                </div>
+                <div class="w-[50%] flex items-center md:w-full flex-col justify-center ">
+                    <h4 class="text-xl text-yellow-400 font-semibold">Contact form</h4>
+                    <form class="my-8 p-4 bg-yellow-400 w-[90%] rounded-lg">
+                        <div class="my-5 text-[#252525] text-justify">
+                            <label for="" class="block font-semibold  mb-2">Title :</label>
+                            <input type="text" class="inputs">
+                        </div>
+                        <div class="my-5 text-[#252525] text-justify">
+                            <label for="" class="block font-semibold  mb-2">Email :</label>
+                            <input type="email" class="inputs">
+                        </div>
+                        <div class="my-5 text-[#252525] text-justify">
+                            <label for="" class="block font-semibold  mb-2">Message :</label>
+                            <textarea class="textarea"></textarea>
+                        </div>
+                        <div class="my-3">
+                            <button class="bg-[#252525] px-10 py-1 rounded border-none">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end contact code -->
+    <footer class="border-t-2 border-yellow-400 border-double p-4">
+        <div class="wrap flex items-center justify-between">
+            <h3 class="text-2xl font-bold">TechSchool</h3>
+            <div class="w-[200px] md:w-[150px]  flex items-center justify-between text-2xl md:text-xl">
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

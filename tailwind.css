@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+
+.wrap{
+    @apply w-[1200px] mx-auto
+}
+
+.title{
+    @apply text-yellow-400 text-4xl md:text-2xl font-bold mt-32
+}
+
+.card{
+    @apply my-10 lg:w-[45%] md:w-[90%] w-[30%] shadow-lg
+}
+
+.inputs{
+    @apply w-full rounded outline-none pl-1 p-2
+}
+
+.textarea{
+    @apply w-full rounded outline-none pl-1 p-2 resize-none h-[120px]
+}
+
+.inputvip{
+    @apply w-full bg-transparent rounded p-2 pl-1 outline-none font-semibold text-[#252525] transition duration-500 ease-linear focus:transition focus:duration-500 focus:ease-linear focus:bg-gray-100
+}
+
+@media screen and (max-width : 1240px){
+    .wrap{
+    @apply w-[90%]
+    }
+}
+
